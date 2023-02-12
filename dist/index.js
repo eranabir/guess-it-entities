@@ -22,4 +22,5 @@ __exportStar(require("./word.entity"), exports);
 __exportStar(require("./player.entity"), exports);
 __exportStar(require("./user.entity"), exports);
 __exportStar(require("./category.entity"), exports);
+__exportStar(require("./dtos/create-game.dto"), exports);
 //# sourceMappingURL=index.js.map
