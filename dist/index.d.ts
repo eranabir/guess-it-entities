@@ -7,3 +7,4 @@ export * from './player.entity';
 export * from './user.entity';
 export * from './category.entity';
 export * from './dtos/create-game.dto';
+export * from './dtos/init-game.dto';
