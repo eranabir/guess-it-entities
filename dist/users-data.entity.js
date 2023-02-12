@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserData = void 0;
 const typeorm_1 = require("typeorm");
-const game_entity_1 = require("./game.entity");
+const game_entity_1 = require("./game/game.entity");
 let UserData = class UserData {
     logCreate() {
         console.log('Created User with id:', this.id);

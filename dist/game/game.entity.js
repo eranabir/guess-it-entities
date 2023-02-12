@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Game = void 0;
 const typeorm_1 = require("typeorm");
-const player_entity_1 = require("./player.entity");
+const player_entity_1 = require("../player.entity");
 let Game = class Game {
     constructor() {
         this.correctWords = [];

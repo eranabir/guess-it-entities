@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.GameRequest = void 0;
 const typeorm_1 = require("typeorm");
 const users_data_entity_1 = require("./users-data.entity");
-const game_entity_1 = require("./game.entity");
+const game_entity_1 = require("./game/game.entity");
 let GameRequest = class GameRequest {
     logCreate() {
         console.log(`Created New Game Request fromId : ${this.fromId} toId : ${this.toId}`);

@@ -1,4 +1,4 @@
-import { Game } from "./game.entity";
+import { Game } from "./game/game.entity";
 export declare class UserData {
     id: string;
     firstName: string;

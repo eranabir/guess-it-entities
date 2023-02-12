@@ -1,5 +1,5 @@
 import { UserData } from "./users-data.entity";
-import { Game } from "./game.entity";
+import { Game } from "./game/game.entity";
 import { TGameRequestStatus } from "./types";
 export declare class GameRequest {
     id: string;

@@ -1,5 +1,5 @@
-import { IGameWord, IWord, TGameStatus } from "./types";
-import { Player } from "./player.entity";
+import { IGameWord, IWord, TGameStatus } from "../types";
+import { Player } from "../player.entity";
 export declare class Game {
     id: string;
     adminId: string;

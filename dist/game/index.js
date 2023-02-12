@@ -14,12 +14,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-__exportStar(require("./users-data.entity"), exports);
-__exportStar(require("./friend.entity"), exports);
-__exportStar(require("./game-request.entity"), exports);
-__exportStar(require("./word.entity"), exports);
-__exportStar(require("./player.entity"), exports);
-__exportStar(require("./user.entity"), exports);
-__exportStar(require("./category.entity"), exports);
-__exportStar(require("./game"), exports);
+__exportStar(require("./game.entity"), exports);
+__exportStar(require("./dto/init-game.dto"), exports);
+__exportStar(require("./dto/create-game.dto"), exports);
 //# sourceMappingURL=index.js.map
