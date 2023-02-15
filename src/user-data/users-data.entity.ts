@@ -27,6 +27,9 @@ export class UserData {
   @Column({ type: 'text', default: '0' })
   vaultAccountId:string;
 
+  @Column({ type: 'number', default: 0 })
+  wins:number;
+
   @Column({ type: 'uuid', unique: true, nullable: true })
   userId: string;
 
