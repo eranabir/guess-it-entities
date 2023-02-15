@@ -48,7 +48,7 @@ __decorate([
     __metadata("design:type", String)
 ], UserData.prototype, "vaultAccountId", void 0);
 __decorate([
-    (0, typeorm_1.Column)({ type: 'number', default: 0 }),
+    (0, typeorm_1.Column)({ type: 'integer', default: 0 }),
     __metadata("design:type", Number)
 ], UserData.prototype, "wins", void 0);
 __decorate([
