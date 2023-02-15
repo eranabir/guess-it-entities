@@ -7,7 +7,7 @@ import {
   AfterRemove,
   Unique, ManyToOne, JoinColumn,
 } from 'typeorm';
-import {Game} from "../game/game.entity";
+import {Game} from "../game";
 
 @Entity('users-data')
 @Unique(['email', 'provider', 'userId'])
