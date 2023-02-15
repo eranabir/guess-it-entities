@@ -24,8 +24,12 @@ export class UserData {
   @Column({ type: 'text', default: 'email' })
   provider: 'google' | 'email' | 'facebook';
 
+  @Column({ type: 'text', default: '0' })
+  vaultAccountId:string;
+
   @Column({ type: 'uuid', unique: true, nullable: true })
   userId: string;
+
 
   @ManyToOne(() => Game, { nullable: true, eager: true })
   @JoinColumn()

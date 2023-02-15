@@ -5,6 +5,7 @@ export declare class UserData {
     lastName: string;
     email: string;
     provider: 'google' | 'email' | 'facebook';
+    vaultAccountId: string;
     userId: string;
     activeGame: Game;
     profilePic: string;
