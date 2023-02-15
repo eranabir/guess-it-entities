@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserData = void 0;
 const typeorm_1 = require("typeorm");
-const game_entity_1 = require("../game/game.entity");
+const game_1 = require("../game");
 let UserData = class UserData {
     logCreate() {
         console.log('Created User with id:', this.id);
@@ -56,9 +56,9 @@ __decorate([
     __metadata("design:type", String)
 ], UserData.prototype, "userId", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => game_entity_1.Game, { nullable: true, eager: true }),
+    (0, typeorm_1.ManyToOne)(() => game_1.Game, { nullable: true, eager: true }),
     (0, typeorm_1.JoinColumn)(),
-    __metadata("design:type", game_entity_1.Game)
+    __metadata("design:type", game_1.Game)
 ], UserData.prototype, "activeGame", void 0);
 __decorate([
     (0, typeorm_1.Column)({ type: 'text', nullable: true }),
